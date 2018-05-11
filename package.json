@@ -1,0 +1,9 @@
+{
+  "name": "nameservers",
+  "version": "0.0.1",
+  "description": "Maintains a list of nameservers",
+  "repository": "git@github.com:TryGhost/nameservers.git",
+  "author": "Ghost Foundation",
+  "license": "MIT",
+  "main": "nameservers.json"
+}

@@ -1,0 +1,124 @@
+[
+  {
+    "name": "Cloudflare",
+    "match": "\\.cloudflare\\.com$",
+    "apexcname": true,
+    "obfuscator": true,
+    "support": {
+      "email": "support@cloudflare.com",
+      "url": "https://support.cloudflare.com/hc/en-us"
+    }
+  },
+  {
+    "name": "NameCheap",
+    "match": "\\.registrar-servers\\.com$",
+    "apexcname": true,
+    "obfuscator": null,
+    "support": {}
+  },
+  {
+    "name": "GoDaddy",
+    "match": "\\.domaincontrol\\.com$",
+    "apexcname": null,
+    "obfuscator": null,
+    "support": {}
+  },
+  {
+    "name": "MediaTemple",
+    "match": "\\.mediatemple\\.net$",
+    "apexcname": null,
+    "obfuscator": null,
+    "support": {}
+  },
+  {
+    "name": "Gandi",
+    "match": "\\.gandi\\.net$",
+    "apexcname": null,
+    "obfuscator": null,
+    "support": {
+      "url": "https://v4.gandi.net/support/contact/mail/"
+    }
+  },
+  {
+    "name": "AWS Route 53",
+    "match": "\\.awsdns-\\d+\\.(org|com|co\\.uk|net)$",
+    "apexcname": true,
+    "obfuscator": true,
+    "support": {}
+  },
+  {
+    "name": "Google Domains",
+    "match": "\\.googledomains\\.com$",
+    "apexcname": false,
+    "obfuscator": null,
+    "support": {
+      "url": "https://domains.google.com/contactus#m=e"
+    }
+  },
+  {
+    "name": "iwantmyname",
+    "match": "\\.iwantmyname\\.net$",
+    "apexcname": false,
+    "obfuscator": false,
+    "support": {
+      "email": "help@support.iwantmyname.com",
+      "url": "https://iwantmyname.com/support"
+    }
+  },
+  {
+    "name": "DigitalOcean",
+    "match": "\\.digitalocean\\.com$",
+    "apexcname": true,
+    "obfuscator": null,
+    "support": {
+      "email": "support@digitalocean.com",
+      "url": "https://cloudsupport.digitalocean.com/s/createticket"
+    }
+  },
+  {
+    "name": "DNSimple",
+    "match": "\\.dnsimple\\.com$",
+    "apexcname": true,
+    "obfuscator": null,
+    "support": {
+      "email": "support@dnsimple.com",
+      "url": "https://dnsimple.com/contact"
+    }
+  },
+  {
+    "name": "DNSMadeEasy",
+    "match": "\\.dnsmadeeasy\\.com$",
+    "apexcname": true,
+    "obfuscator": null,
+    "support": {
+      "url": "https://support.dnsmadeeasy.com/index.php?/Tickets/Submit"
+    }
+  },
+  {
+    "name": "Hover",
+    "match": "\\.hover\\.com$",
+    "apexcname": null,
+    "obfuscator": null,
+    "support": {
+      "url": "https://help.hover.com/hc/en-us/requests/new"
+    }
+  },
+  {
+    "name": "Enom",
+    "match": "\\.name-services\\.com$",
+    "apexcname": null,
+    "obfuscator": null,
+    "support": {
+      "url": "https://help.enom.com/hc/en-us/requests/new"
+    }
+  },
+  {
+    "name": "123 Reg",
+    "match": "\\.123-reg\\.co\\.uk$",
+    "apexcname": true,
+    "obfuscator": false,
+    "support": {
+      "url": "https://www.123-reg.co.uk/support/"
+    }
+  }
+]
