@@ -5,5 +5,8 @@
   "repository": "git@github.com:TryGhost/nameservers.git",
   "author": "Ghost Foundation",
   "license": "MIT",
-  "main": "nameservers.json"
+  "main": "nameservers.json",
+  "scripts": {
+    "ship": "STATUS=$(git status --porcelain); echo $STATUS; if [ -z \"$STATUS\" ]; then yarn publish && git push --follow-tags; fi"
+  }
 }
